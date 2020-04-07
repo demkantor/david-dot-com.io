@@ -206,8 +206,20 @@ body {
 	outline: none;
 }
 
+.span_link{
+    text-decoration: none;
+}
+
 .frame {
 	padding: 3rem 5vw;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+	line-height: 1;
+}
+
+.frame_lower{
+	padding: 1.5rem 2vw;
 	text-align: center;
 	position: relative;
 	z-index: 10;
@@ -238,7 +250,7 @@ body {
 	color: var(--color-text);
 }
 
-.menu {
+.project {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
